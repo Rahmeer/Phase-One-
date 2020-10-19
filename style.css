@@ -1,0 +1,129 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 30px;
+}
+.logo {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.right {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+}
+.phone {
+  padding-right: 30px;
+}
+.Language {
+  padding: 0 20px;
+}
+
+.section {
+  background-color: #3d4045;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  /* position: fixed; */
+}
+
+.section button {
+  
+  background: rgba(211, 211, 211, 0.7);
+  font-size: 30px;
+  padding: 0 20px;
+  border: none;
+}
+
+.image {
+  position: relative;
+}
+.image img {
+  width: 100%;
+}
+
+.but {
+  position: absolute;
+  bottom: 300px;
+  left: 100px;
+}
+
+.but button {
+  font-size: 60px;
+  background: rgba(211, 211, 211, 0.7);
+  border: none;
+}
+.words {
+  font-size: 45px;
+  position: absolute;
+  top: 25%;
+  right: 7%;
+  width: 34%;
+  padding: 0 40px;
+  background: rgba(211, 211, 211, 0.7);
+}
+
+h1 {
+  justify-content: center;
+  display: flex;
+}
+
+.service {
+  display: flex;
+  justify-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.service .box {
+  width: 30%;
+  border-radius: 20px;
+  overflow: hidden;
+  background: rgba(211, 211, 211, 0.7);
+  margin: 0 10px;
+  width: 60%;
+}
+
+.service .box:hover {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+  text-decoration: underline;
+  color: #ffffff !important;
+}
+.service i {
+  margin-top: 10px;
+  font-size: 100px;
+}
+
+.service p {
+  margin-bottom: 0;
+  padding: 20px 0px;
+  background-color: tomato;
+  color: white;
+  font-size: 24px;
+}
+
+footer {
+  display: flex;
+  text-align: start;
+  background-color: #3d4045;
+  color: white;
+  padding-top: 10px;
+}
+
+footer .part {
+  width: 100%;
+}
